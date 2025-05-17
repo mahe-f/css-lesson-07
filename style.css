@@ -1,0 +1,22 @@
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(161, 195, 235);}
+
+h1{color: blueviolet;}
+
+a{color: rgb(20, 99, 126);
+text-decoration: none;}
+a:hover{color: lightseagreen;}
+
+ul>li{font-weight: bold;}
+h1+p{background-color: aqua;
+padding: 10px;
+border-radius: 5px;}
+
+ul il:nth-child(2){color: deeppink;}
+
+p:not(:first-of-type)
+{text-decoration: underline;}
+
+ul li::before{content: "*";}
+
+p::first-letter{font-size: 150%;}
